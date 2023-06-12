@@ -1,0 +1,74 @@
+[
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\ChaosVillage.Build.cs",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\ChaosVillage.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\ChaosVillage.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\ChaosVillageGameModeBase.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\ChaosVillageGameModeBase.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\SPlayerPawn.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\SPlayerPawn.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\TestPushFile.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\Source\\ChaosVillage\\TestPushFile.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+            "@C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\.vscode\\compileCommands_Default\\ChaosVillage.262.rsp"
+        ],
+        "directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+    }
+]

@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ChaosVillage Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillage Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillage Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillage Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Test",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Test",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillage Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Test",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillage Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillage Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillage",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillageEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillageEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ChaosVillageEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "ChaosVillageEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ChaosVillageEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Trulo\\Documents\\GitHub\\ChaosVillage\\ChaosVillage.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		}
+	]
+}
